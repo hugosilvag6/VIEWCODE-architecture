@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>470051499563-3t4695i86oh21r03lvgkuq5d12oquae0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.470051499563-3t4695i86oh21r03lvgkuq5d12oquae0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDpGFhelYveeihvqzdWv1O26_dEZ2ySqLI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>470051499563</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hugosilvag6.arquitetura</string>
+	<key>PROJECT_ID</key>
+	<string>backfront-arquitetura</string>
+	<key>STORAGE_BUCKET</key>
+	<string>backfront-arquitetura.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:470051499563:ios:e4caf35b8d6b6b4a87c46e</string>
+</dict>
+</plist>
