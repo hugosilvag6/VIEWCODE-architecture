@@ -9,12 +9,14 @@ import Foundation
 import FirebaseAuth
 
 protocol UserProviderProtocol {
-   func register(parameters: [AnyHashable:Any], completionHandler: @escaping (Result<UserModel, Error>) -> Void)
    func login(parameters: [AnyHashable:Any], completionHandler: @escaping (Result<UserModel, Error>) -> Void)
+   func register(parameters: [AnyHashable:Any], completionHandler: @escaping (Result<UserModel, Error>) -> Void)
 }
 
 class UserProvider: UserProviderProtocol {
+   
    lazy var auth = Auth.auth()
+   
    func login(parameters: [AnyHashable : Any], completionHandler: @escaping (Result<UserModel, Error>) -> Void) {
       let body: NSDictionary = parameters[Constants.ParametersKeys.body] as! NSDictionary
       let userModel = body[Constants.ParametersKeys.userModel] as! UserModel
@@ -27,6 +29,7 @@ class UserProvider: UserProviderProtocol {
          }
       }
    }
+   
    func register(parameters: [AnyHashable : Any], completionHandler: @escaping (Result<UserModel, Error>) -> Void) {
       let body: NSDictionary = parameters[Constants.ParametersKeys.body] as! NSDictionary
       let userModel = body[Constants.ParametersKeys.userModel] as! UserModel
